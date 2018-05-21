@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" href="data:;base64,=" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <div id="launch-screen">
+        <div class="NDB-block">
+            <span class="loading-svg">
+               <svg  viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <title>d</title>
+                <defs>
+                    <circle id="path-1" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <filter x="-31.4%" y="-31.4%" width="162.9%" height="162.9%" filterUnits="objectBoundingBox" id="filter-2">
+                        <feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+                        <feOffset dx="0" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+                        <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+                        <feColorMatrix values="0 0 0 0 0.854379252   0 0 0 0 0.539129869   0 0 0 0 0.0208841519  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+                    </filter>
+                    <path d="M23.5325699,14.4268125 C22.4423549,12.2260468 20.1591315,10.7112069 17.5190217,10.7112069 C13.8211152,10.7112069 10.8233696,13.6831099 10.8233696,17.3491379 C10.8233696,21.015166 13.8211152,23.987069 17.5190217,23.987069 C17.5354892,23.987069 17.5519429,23.98701 17.5683824,23.9868924 C17.6080882,23.9875878 17.6478798,23.987937 17.6877542,23.987937 C20.1453007,23.987937 22.2883275,22.661545 23.4192044,20.6959128 C23.4428496,20.6573873 23.4648955,20.6177671 23.4877477,20.5783323 C23.8655813,19.9263248 24.5513578,19.4489389 25.3681121,19.4489389 C26.5800391,19.4489389 27.5625,20.416643 27.5625,21.6103665 C27.5625,22.0288203 27.4725803,22.4335203 27.2640912,22.7647186 C25.3954448,26.0752595 21.806649,28.3107923 17.6877542,28.3107923 C16.4037845,28.3107923 15.1713263,28.0935576 14.0261966,27.694367 L12.5591179,30.1846229 C12.3091404,30.6089409 11.7501803,30.7513135 11.3106455,30.5026211 C10.8711108,30.2539287 10.7174442,29.708346 10.9674217,29.284028 L12.3452271,26.9453069 C11.7959547,26.6431232 11.2757713,26.2957857 10.789854,25.9083938 L8.27746774,30.1729805 C8.02370223,30.6037284 7.46167131,30.7513135 7.02213655,30.5026211 C6.58260179,30.2539287 6.43200606,29.7031335 6.68577157,29.2723857 L9.42802681,24.6176135 C7.73922585,22.7168301 6.71581448,20.2279621 6.71581448,17.503654 C6.71581448,11.5350363 11.6281192,6.69651565 17.6877542,6.69651565 C18.4317779,6.69651565 19.1585046,6.76946025 19.8609652,6.90848493 L21.0829089,4.83432744 C21.3366744,4.40357957 21.8987053,4.25599444 22.33824,4.50468685 C22.7777748,4.75337925 22.9283705,5.30417443 22.674605,5.73492231 L21.674716,7.43215882 C22.262458,7.65805544 22.8255693,7.9324257 23.358985,8.25028087 L25.408115,4.77203682 C25.6416132,4.3756911 26.1872143,4.25599444 26.626749,4.50468685 C27.0662838,4.75337925 27.2333094,5.27628596 26.9998111,5.67263168 L24.8520793,9.31824499 C25.6817143,10.0233707 26.4030026,10.8487928 26.9880166,11.7670031 C27.0153721,11.8074101 27.0413508,11.8487866 27.065885,11.8910728 C27.0974619,11.9474593 27.1006044,11.9533039 27.1037197,11.9591646 C27.2628186,12.2584731 27.3430612,12.6033848 27.3430612,12.9646559 C27.3430612,14.1583794 26.3606003,15.1260835 25.1486733,15.1260835 C24.5092198,15.1260835 23.9336491,14.8566774 23.5325699,14.4268125 Z" id="path-3"></path>
+                    <filter x="-28.6%" y="-11.4%" width="157.1%" height="145.7%" filterUnits="objectBoundingBox" id="filter-5">
+                        <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                        <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                        <feColorMatrix values="0 0 0 0 0.843137255   0 0 0 0 0.545098039   0 0 0 0 0.0509803922  0 0 0 0.55 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                    </filter>
+                </defs>
+                <g id="激励主页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="income" transform="translate(-24.000000, -1146.000000)">
+                        <g id="wer" transform="translate(30.000000, 1152.000000)">
+                            <g id="Oval-3">
+                                <use fill="#FFC517" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <circle stroke="#FFE600" stroke-width="6" cx="17.5" cy="17.5" r="20.5"></circle>
+                            </g>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Mask">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                                <use fill="#FFFB12" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

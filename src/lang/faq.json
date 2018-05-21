@@ -1,0 +1,104 @@
+{  
+    "en":{
+        "list":[
+            {
+                "question": "Who are we?",
+                "answers": [
+                    "NewsDog is an India-focused news APP that uses cutting-edge technology to recommend the most relevant and interesting news individually to each user. Since the APP was launched in March 2016, we have accumulated over 20 million users and are ranked among the top 3 news apps on Google Play."
+                ]
+            },
+            {
+                "question": "Why refer friends?",
+                "answers": [
+                    "Referring friends is by far the easiest way to earn cnn coins with NewsDog. You can win up to 450 cnn coins for inviting one friend."
+                ]
+            },
+            {
+                "type": "title",
+                "title": "CNN coin related questions"
+            },
+            {
+                "question": "Daily Check-in",
+                "answers": [
+                    "Earn cnn coins by daily checking in. The more days you check in consecutively, the more you earn. First day check-in gets 2 cnn coins, the second day 2.5, and keep adding more on third, fourth and so on. Flat 5 cnn coins will be added 7th day onwards. However, upon failure to check in for even a day, the cycle will restart from the 1st day (2 cnn coins)."
+                ]
+            },
+            {
+                "type": "title",
+                "title": "Friend invitation related questions"
+            },
+            {
+                "question": "What is invite link?",
+                "answers": [
+                    "The unique link given to each user by NewsDog for the purpose of tracking how many friends you have invited. You can find it under tab \"Invite friends\"."
+                ]
+            },
+            {
+                "type": "table",
+                "question": "How to earn 450 cnn coins?",
+                "answers": [
+                    "You can earn maximum of 450 cnn coins from each friend. coins will be credited to your account during the first 6 days. ",
+                    "1. 200 cnn coins once he opens NewsDog.",
+                    "2. 50 cnn coins each day he reads any news."
+                ]
+            },
+            {
+                "question": "Why did I not get 450 cnn coins?",
+                "answers": [
+                    "1. You will not get cnn coins associated with your friend if your friend didn’t install NewsDog through your invite link.",
+                    "2. 450 cnn coins is the maximum coins you win from one friend. Cnn coins will be credited to your account daily when your friend reads news during the first 6 days. If your friend doesn't read news, you would get less than 450 cnn coins."
+                ]
+            },
+            {
+                "question": "What if my friend fails to open the invite link?",
+                "answers": [
+                    "Please go to the invite link page and try to share the link again. If you still face the problems after having tried several times, please go to 'ME' button at the bottom of the main page, then click 'Feedback' and report the problem."
+                ]
+            },
+            {
+                "type": "title",
+                "title": "Cash out questions"
+            },
+            {
+                "question": "How to cash out my cnn coins?",
+                "answers": [
+                    "You can cash out when your balance reaches cnn coins 5000. Check now if you are eligible for cash out: go to the tab \"Income\" and then click \"Cash Out\". "
+                ]
+            },
+            {
+                "question": "How long does it take to receive the cnn coins?",
+                "answers": [
+                    "It takes 3-7 days for us to transfer the cnn coins into your Paytm account after you submit the cash out request."
+                ]
+            },
+            {
+                "question": "Why can I not participate anymore?",
+                "answers": [
+                    "Each device, each user can be invited only once. Once we find any device or any user has been invited or used multiple times, we have the right to cancel the payment and deny him/her from participating further in the campaign."
+                ]
+            },
+            {
+                "type": "title",
+                "title": "Others"
+            },
+            {
+                "question": "Terms and conditions",
+                "answers": [
+                    "1. The promotional campaign is part of an advertising campaign for NewsDog. It is not a lottery nor risk-based activity. It doesn’t aim at making profits. NewsDog reserves the right to amend the policy at any time of the campaign.\n                            ",
+                    "2. All the pictures of the prizes are only for your reference",
+                    "3. Kindly do not uninstall NewsDog during the plan. NewsDog will not be responsible for loss of your coins due to uninstallation."
+                ]
+            },
+            {
+                "question": "What if this FAQ sheet cannot help me solve my problem?",
+                "answers": [
+                    "Go to the \"Me\" button at the bottom of the main page, then click \"Feedback\" and fill in the info."
+                ]
+            }
+        ],
+        "table":[
+            ["Time of being active","1st","2nd","3rd","4th","5th","6th"],
+            ["Rewards (Coins)","100","50","50","50","50","50"]
+        ]
+    }
+}

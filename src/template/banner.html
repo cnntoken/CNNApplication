@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="data:;base64,=" rel="icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style type="text/css" media="screen">
+        html,body{
+            width: 100%;
+            height: 90px;
+            padding: 0;
+            margin: 0;
+            color: #FFF;
+            overflow: hidden;
+        }
+        body{
+            padding:10px 10px 0px 10px;
+            width: auto;
+        }
+        .container {
+          height: 80px;
+          border-radius: 6px;
+          background-image: url('./images/@1x/banner_en.png');
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          box-shadow: 0 1px 3px 0 rgba(0,0,0,0.30);
+          text-align: center;
+          position: relative;
+        }
+        .container.hi{
+          background-image: url('./images/@1x/banner_hi.png');
+        }
+        .line{
+          width: 100%;
+          margin-top: 9px;
+          height: 1px;
+          background-color:#ECE6E6;
+          transform: scale(1,0.333);
+          -webkit-transform: scale(1,0.333);
+        }
+    </style>
+</head>
+<body>
+<div class="container"></div>
+<div class="line"></div>
+<script>  
+  var bgImgs = ['banner_en.png','banner_hi.png'];
+  var needLoadImgs = bgImgs.length;
+  function querySearch(name){
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]);
+      return null;
+  }
+  function showPage(){
+    needLoadImgs--;
+    if(needLoadImgs < 1){
+      try{
+        AndroidImgHandler.show('{"slide" : false }'); // 查看图片
+      }catch(e){
+        console.log("show is failed");
+      }      
+    }
+  }
+  for(var i = 0; i < bgImgs.length; i++){
+    var image = new Image();
+    image.src = './images/@1x/'+bgImgs[i];
+    if(!image.complete){
+        image.onload = function() {
+            showPage();
+        }
+    }else{
+            showPage();
+    }
+}
+  var lang = querySearch('lang') || 'en';
+  document.querySelector('.container').classList.add(lang);
+
+  document.querySelector(".container").onclick = function(){
+      try{
+        AndroidImgHandler.openPromotion(); // 查看图片
+      }catch(e){
+        console.log("openPromotion is failed");
+      } 
+  }
+  </script>
+</body>
+</html>
