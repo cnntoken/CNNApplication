@@ -3,7 +3,7 @@
         position: absolute;
         top: 100px;
         right: 0;
-        font-size: 20px;
+        font-size: 22px;
         height: 42px;
         line-height: 42px;
         padding: 0 6px;
@@ -13,7 +13,7 @@
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
         z-index: 999;
         span{
-            font-size: 16px;
+            font-size: 18px;
             display: inline-block;
             &.clock{
                 img {
@@ -39,7 +39,7 @@
                         position: absolute;
                         top: -6px;
                         left: 3px;
-                        font-size: 14px;
+                        font-size: 16px;
                         font-weight: bold;
                     }
                 }
