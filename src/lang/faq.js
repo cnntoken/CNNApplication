@@ -52,6 +52,13 @@ export default ($NDGCNN) => {
                     ]
                 },
                 {
+                    "question": `Where can I use those cnn coins`,
+                    "answers": [
+                        `1. We have launched several exchanges, like Hadax and Cashierest, you can draw the coins to the exchanges and trade it.`,
+                        `2. We also have partnership with some game platform, you can use cnn to play those games.`
+                    ]
+                },
+                {
                     "question": `Why did I not get ${WholeCnn} cnn coins?`,
                     "answers": [
                         "1. You will not get cnn coins associated with your friend if your friend didn’t install NewsDog through your invite link.",
