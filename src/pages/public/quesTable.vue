@@ -5,10 +5,10 @@
         color: #7F7E7E;
     }    
     table tr:nth-last-child(1) td{
-        border-bottom-width: 1px; 
+        border-bottom-width: 2px; 
     }
     table tr td:nth-last-child(1){
-        border-right-width: 1px; 
+        border-right-width: 2px; 
     }
     table tr td:nth-child(1){
         width: 80px;
