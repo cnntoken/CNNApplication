@@ -8,6 +8,7 @@ import iconMessage from './icon-message.vue';
 import iconWhatsapp from './icon-whatsapp.vue';
 import iconWhatsappWhite from './icon-whatsapp-white.vue';
 import iconWithdraw from './icon-withdraw.vue';
+import iconWithdraw1 from './icon-withdraw1.vue';
 import iconArc from './icon-arc.vue';
 import iconAvatar from './icon-avatar.vue';
 import iconHaha from './icon-haha.vue';
@@ -27,6 +28,14 @@ import iconTaskComplete from './icon-task-complete.vue';
 import iconInviteCode from './icon-invite-code.vue';
 import iconCoinGold from './icon-coin-gold.vue';
 import iconActivityNotice from './icon-activity-notice.vue';
+import iconCheckIn from './icon-checkin.vue';
+import iconInvite from './icon-invite.vue';
+import iconShare2 from './icon-share2.vue';
+import iconReadArticle from './icon-read-article.vue';
+import iconComment from './icon-comment.vue';
+import iconLike from './icon-like.vue';
+import iconContestPolicy from './icon-contest-policy.vue'
+
 
 export {
     iconHand,
@@ -39,6 +48,7 @@ export {
     iconMessage,
     iconWhatsapp,
     iconWithdraw,
+    iconWithdraw1,
 
     iconArc,
     iconAvatar,
@@ -58,5 +68,12 @@ export {
     iconInviteCode,
     iconCoinGold,
     iconWhatsappWhite,
-    iconActivityNotice
+    iconActivityNotice,
+    iconCheckIn,
+    iconInvite,
+    iconShare2,
+    iconReadArticle,
+    iconComment,
+    iconLike,
+    iconContestPolicy
 }

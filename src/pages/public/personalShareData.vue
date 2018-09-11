@@ -21,10 +21,31 @@
             font-weight: bolder;
         }
     }
+    .indexWrap{
+        margin-top: 24px;
+        color: #fff;
+        font-size: 12px;
+        .box{
+            display: flex;
+        }
+        .item{
+            flex: 1;
+        }
+        .title{
+            font-weight: medium;
+            text-align: center;
+        }
+        .number{
+            margin-top: 4px;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    }
+    
 </style>
 <template>
-    <div :class="$style.wrap">
-        <div :class="$style.day">{{$t('textLabel.share_data_today')}}</div>
+    <div :class="[indexWrap?$style.indexWrap:$style.wrap]">
+        <!-- <div :class="$style.day">{{$t('textLabel.share_data_today')}}</div> -->
         <div :class="$style.box">
             <div :class="$style.item">
                 <div :class="$style.title">{{$t('textLabel.share_data_share')}}</div>
@@ -55,6 +76,9 @@
                 default(){
                     return {}
                 }
+            },
+            indexWrap:{
+                type: Boolean
             }
         }
     }

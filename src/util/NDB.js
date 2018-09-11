@@ -434,6 +434,10 @@ NDB.extend(NDB, {
     getAppInstallInfo:function (opt, callback) {
         return NDB.run("isAppInstalled", opt, callback);
     },
+    showDialog: function(opt, callback){
+        opt =  NDB.extend(true, {}, opt || {});
+        return NDB.run("showDialog",opt,callback)
+    },
     toast: function(opt, callback) {
         var defOpt = {
             msg: "弹出Toast",

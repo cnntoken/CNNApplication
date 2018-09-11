@@ -86,6 +86,12 @@
     .NDB-newbie-task .task-content {
         text-align: left;
     }
+    .NDB-newbie-task .task-content img{
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 80%
+    }
     .NDB-newbie-task .proceed-btn {
         width: 250px;
         height: 40px;
@@ -111,7 +117,7 @@
         <div class="task-header" v-if="from == 'check_in_task'" v-html="$t('textLabel.newbie_checkin_header')"></div>
         <div class="task-content" v-if="from == 'check_in_task'" v-html="$t('textLabel.newbie_checkin_content',{cnn:$NDGCNN.WITHDRAW_LIMIT})"></div>
         <div class="task-content" v-else-if="from == 'share_task'" v-html="$t('textLabel.newbie_share_content',{cnn:$NDGCNN.ACTION_TYPE_GAIN_COIN_MAPPING[12]})"></div>
-        <div class="task-content" v-else="from == 'task_all_proceed'" v-html="$t('textLabel.newbie_done_content')"></div>
+        <div class="task-content" v-else="from == 'task_all_proceed'" v-html="$t('textLabel.newbie_done_content',{img:require('@src/assets/images/newbie/lastStep.png')})"></div>
         <div class="proceed-btn" v-if="from !== 'task_all_proceed'" @click="taskProceed(from)">{{$t('textLabel.newbie_checkin_proceed')}}</div>
         <div class="proceed-btn" v-if="from == 'task_all_proceed'" @click="taskProceed(from)">{{$t('textLabel.newbie_done_btn')}}</div>
     </div>
