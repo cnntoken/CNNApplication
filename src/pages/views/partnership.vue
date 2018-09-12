@@ -428,7 +428,8 @@
 
 <script>
 import NDB from '@src/util/NDB';
-import { iconDbg,iconWhatsapp,iconFacebook,iconMessage,iconShare,iconShareit,iconXender } from '@svg';
+    import { iconDbg,iconMessage,iconFacebook,iconWhatsapp,iconShare,iconShareit,iconXender } from '@svg';
+
 import shareFlow from '../public/shareFlow.vue';
 import fbPaste from '../public/fbPaste.vue';
 import { config } from '@src/config';
@@ -513,7 +514,7 @@ export default {
             console.log(packageName)
             NDB.transferApp({
                 'platform': packageName,
-                 's_apk':'com.newsdog',
+                 's_apk':'com.newsdog.cnn',
                  'params':{}
             },(res)=>{
                 if(res.code == 200){

@@ -95,6 +95,9 @@ export const ACTIONS = {
     14: 'newbie_task',
     15: 'grandson',
     16: 'click_promotion',
+    21: 'instant_withdraw_fail',
+    22: 'comment_article',
+    23: 'like_article',
     98: 'beforewithdraw',
     99: 'showoff'
 };
@@ -116,6 +119,9 @@ export const ACTION_TYPES = {
     14: "coin",
     15: "coin",
     16: "coin",
+    21: "coin",
+    22: "coin",
+    23: "coin",
     98: "cash",
     99: "cash"
 };
